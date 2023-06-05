@@ -51,8 +51,8 @@ width: 700px;
 position: flex;
 }
 
-section.new {
-display: block;
+section.inline {
+display: inline-block;
 
 }
 

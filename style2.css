@@ -34,16 +34,17 @@ ul li a {
     font-weight: 400;
     padding: 28px;
 }
-main .img-line {
+
+    div.groundimage .img-line {
     margin-top: 180px;
     margin-left: 110px;
     margin-right: 110px;
     height: 400px;
-    width: 700px;
+    width: 50%;
     display: inline-block;
-
 }
 
 div.news {
-    display: inline;
+    width: 50%;
+    display: inline-block;
 }

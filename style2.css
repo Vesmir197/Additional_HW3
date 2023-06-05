@@ -1,7 +1,4 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     text-decoration: none;
     list-style: none;
     text-transform: capitalize;
@@ -24,6 +21,7 @@ header .logo {
     font-weight: bold;
     color: black;
 }
+
 ul li {
     position: relative;
     float: left;
@@ -36,24 +34,12 @@ ul li a {
     font-weight: 400;
     padding: 17px;
 }
-
-u li a:hover {
-background: rgb(35, 34, 34);
-color: #fff;
-}
-
 main .img-line {
-margin-top: 180px;
-margin-left: 110px;
-margin-right: 110px;
-height: 400px;
-width: 700px;
-position: flex;
+    margin-top: 180px;
+    margin-left: 110px;
+    margin-right: 110px;
+    height: 400px;
+    width: 700px;
+    position: flex;
 }
-
-section.inline {
-display: inline-block;
-
-}
-
 

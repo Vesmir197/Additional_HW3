@@ -4,7 +4,7 @@
     text-transform: capitalize;
 }
 header {
-    position: fixed;
+    position: static;
     top: 60px;
     left: 110px;
     right: 110px;
@@ -20,6 +20,8 @@ header .logo {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     color: black;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 ul li {
@@ -33,14 +35,15 @@ li a {
     font-family: sans-serif;
     font-weight: 400;
     padding: 28px;
+    margin-left: 10%;
 }
 
   .groundimage .img-line {
-    margin-top: 180px;
-    margin-left: 110px;
-    margin-right: 110px;
+    margin-top: 5%;
+    margin-left: 10%;
+   
     height: 350px;
-    width: 50%;
+    width: 55%;
     display: inline;
     position: static;
 }
@@ -68,9 +71,11 @@ div.news {
         padding-left: 20px;
         }
 div#square {    
-width: 500px;
-height: 350px;
+width: 320px;
+height: 370px;
 background: rgb(8, 8, 8);
 display: inline-block;
 float: right;
+margin-right: 10%;
+
 }

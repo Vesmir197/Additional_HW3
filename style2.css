@@ -42,10 +42,10 @@ li a:hover {
     color: rgb(228, 143, 143);
 }
 
-  .groundimage .img-line {
+  main .img-line {
     margin-top: 5%;
     margin-left: 10%;
-    margin-right: 4%;
+    margin-right: 1%;
     height: 30%;
     width: 50%;
     display: inline-block;
@@ -62,24 +62,33 @@ div.future {
 }
 
 main .box {
-
-    padding: 10px;
-    width: 15%;
+   
+    width: 29%;
     margin-left: 1%;
+    margin-top: 3%;
     height: 20%;
-    display: inline-block;
+    float: right;
 }
-section.item p {
-    font-family: sans-serif;
-    font-size: small;
+section .item  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 160%;
+    vertical-align: text-top;
+    text-align: justify;
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-right: 10px;
+    color: rgb(108, 104, 104);
     display: inline-block;
-    text-transform: capitalize;
-    color: rgb(42, 41, 41);
+    text-transform: none;
+    
+
+   
  
 }
 button.click {
     width: 175px;
-    height: 55px;
+    height: 51px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: rgb(246, 242, 242);
